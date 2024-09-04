@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "bandagtyres": "swazi-bandag"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgresql://postgres:@bandag2022!@localhost:5432/postgresdatabase?sslmode=disable"
+    }
+  }
+}

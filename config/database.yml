@@ -1,0 +1,30 @@
+default: &default
+  adapter: postgresql
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: bandagtyres_db_development
+  username: postgres
+  password: "@bandag2022!"
+  host: localhost
+  port: 5432
+
+test:
+  <<: *default
+  database: bandagtyres_db_test
+  username: postgres
+  password: "@bandag2022!"
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: bandagtyres_db_production
+  username: postgres
+  password: "@bandag2022!"
+  host: localhost
+  port: 5432

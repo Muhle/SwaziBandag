@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "askForPassword": true,
+            "driver": "CloudSQL-PostgreSQL",
+            "name": "bandag tyres",
+            "instanceConnectionName": "swazi-bandag:europe-west1:bandagtyres-instance",
+            "database": "bandagtyres_db",
+            "username": "bhekim",
+            "credentialsFile": "C:\\Users\\Bandag\\Downloads\\bandagtyrescloudsql.json"
+        }
+    ]
+}
