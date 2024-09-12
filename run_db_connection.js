@@ -42,13 +42,13 @@
 import pg from 'pg';
 const {Pool} = pg;
 // import { Pool } from 'pg';
-process.env.DATABASE_URL='postgres://postgres:@bandag2022!@localhost:5432/bandagtyres_db_development';
+process.env.DATABASE_URL='postgres://postgres:Sibebe190998#@localhost:5432/bandagtyres_db_development';
 
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
   database: 'postgres',
-  password: '@bandag2022!',
+  password: 'Sibebe190998#',
   port: 5432,
 });
 

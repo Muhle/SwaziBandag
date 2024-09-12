@@ -10,5 +10,5 @@ schema:
       port: 5432
       sslmode: disable
       username: "postgres"
-      password: "@bandag2022!"
+      password: "Sibebe190998#"
 connectorDirs: ["./connector"]

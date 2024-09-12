@@ -6,7 +6,7 @@
   "etags": {},
   "dataconnectEmulatorConfig": {
     "postgres": {
-      "localConnectionString": "postgresql://postgres:@bandag2022!@localhost:5432/postgresdatabase?sslmode=disable"
+      "localConnectionString": "postgresql://postgres:Sibebe190998#@localhost:5432/postgresdatabase?sslmode=disable"
     }
   }
 }
