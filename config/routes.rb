@@ -12,4 +12,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  resources :navigation, only: [:index]
+  get '/products', to: 'navigation#products'
+  get '/services', to: 'navigation#services'
+  get '/outlets', to: 'navigation#outlets'
+  get '/contact-us', to: 'navigation#contact_us'
+
 end
